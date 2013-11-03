@@ -76,3 +76,6 @@
 
 [push]
 	default = matching
+
+[user]
+	email = yardley@gmail.com
