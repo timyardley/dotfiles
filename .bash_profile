@@ -1,5 +1,6 @@
 # Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:/usr/local/sbin:/usr/local/bin:$PATH"
+export PATH="$HOME/bin:/usr/local/sbin:/usr/local/bin:/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
