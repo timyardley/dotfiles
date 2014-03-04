@@ -1,6 +1,7 @@
 # Add `~/bin` to the `$PATH`
 export GOPATH="$HOME/go"
-export PATH="$HOME/bin:/usr/local/sbin:/usr/local/bin:/usr/local/opt/coreutils/libexec/gnubin:$PATH:$GOPATH/bin"
+export GOROOT=`/usr/local/bin/go env GOROOT`
+export PATH="$HOME/bin:/usr/local/sbin:/usr/local/bin:/usr/local/opt/coreutils/libexec/gnubin:$PATH:$GOPATH/bin:$GOROOT/bin"
 export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 # Load the shell dotfiles, and then some:
