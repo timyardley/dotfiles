@@ -123,7 +123,7 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 sudo tmutil disablelocal
 
 # Disable hibernation (speeds up entering sleep mode)
-ssudo pmset -a hibernatemode 0
+sudo pmset -a hibernatemode 0
 
 # Remove the sleep image file to save disk space
 sudo rm /Private/var/vm/sleepimage
