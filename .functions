@@ -272,6 +272,16 @@ function s() {
 	fi
 }
 
+# `a` with no arguments opens the current directory in Atom Editor, otherwise
+# opens the given location
+function a() {
+	if [ $# -eq 0 ]; then
+		atom .
+	else
+		atom "$@"
+	fi
+}
+
 # `v` with no arguments opens the current directory in Vim, otherwise opens the
 # given location
 function v() {
@@ -296,6 +306,7 @@ function o() {
 # defaults to `patch`
 function np() {
 	git pull --rebase && \
+	rm -rf node_modules && \
 	npm install && \
 	npm test && \
 	npm version ${1:=patch} && \
