@@ -140,3 +140,6 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+# Fake DFIR
+alias virus="cat /dev/urandom | base64 | sed \"s/\//\n/g\" | grep -i --color \"virus\""
