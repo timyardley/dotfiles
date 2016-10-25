@@ -144,7 +144,8 @@
 [commit]
 
 	# https://help.github.com/articles/signing-commits-using-gpg/
-	gpgsign = true
+	# disabled for now, set to true to use
+	gpgsign = false
 
 [diff]
 
