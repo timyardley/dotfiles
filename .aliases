@@ -155,3 +155,7 @@ alias virus="cat /dev/urandom | base64 | sed \"s/\//\n/g\" | grep -i --color \"v
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# speed up time machine
+alias timefly='sudo sysctl debug.lowpri_throttle_enabled=0'
+alias timeslow='sudo sysctl debug.lowpri_throttle_enabled=1'
