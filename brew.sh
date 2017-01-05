@@ -107,6 +107,38 @@ brew install htop
 brew install tmux
 brew install doxygen
 brew install cloc
+brew install cppcheck
+brew install shellcheck
+brew install ipcalc
+brew install aspell
+brew install python
+brew install uncrustify
+brew install bro
+brew install rust
+brew install npm
+brew cask install aerial
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# pip installs
+pip install --upgrade pip setuptools
+pip install scspell3k
+pip install pylint
+pip install proselint
+pip install pep8
+
+# npm installs
+npm install -g alex
+npm install -g bootlint
+npm install -g csslint
+npm install -g htmlhint
+npm install -g jshint
+npm install -g jsonlint
+npm install -g write-good
+
+# go installs
+go get -u github.com/golang/lint/golint
+
+# gem installs
+sudo gem install puppet-lint
