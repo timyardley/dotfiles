@@ -101,5 +101,12 @@ brew install vbindiff
 brew install webkit2png
 #brew install zopfli
 
+# stuff
+brew install go
+brew install htop
+brew install tmux
+brew install doxygen
+brew install cloc
+
 # Remove outdated versions from the cellar.
 brew cleanup
