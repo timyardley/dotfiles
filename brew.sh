@@ -116,6 +116,7 @@ brew install uncrustify
 brew install bro
 brew install rust
 brew install npm
+brew install git-flow-avh
 brew cask install aerial
 
 # Remove outdated versions from the cellar.
