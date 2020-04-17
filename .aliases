@@ -156,3 +156,6 @@ alias timeslow='sudo sysctl debug.lowpri_throttle_enabled=1'
 
 # alias for code-insiders to code
 alias code='code-insiders'
+
+# osx useful
+alias openports="netstat -Waltn | grep LISTEN"
